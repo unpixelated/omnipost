@@ -537,8 +537,8 @@
      font-size: 22px;
      line-height: 29px;
 }
- .about .about_box a:hover {
-     color: #e7bb0b;
+ .about .about_box a:hover, .lang a:hover{
+     color:#5794f3;
 }
  .about .about_img {
      height: 100%;
@@ -944,4 +944,11 @@
      color: #fff;
      font-weight: 500;
 }
- 
+.logo_poster{
+     height: 20em;
+}
+@media (max-width: 575.98px) { 
+     .logo_poster{
+          height: 10em;
+     }
+ }

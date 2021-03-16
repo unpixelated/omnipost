@@ -272,7 +272,7 @@
  .right_header_info {
      width: 100%;
      float: left;
-     padding: 20px 0 0;
+     /* padding: 20px 0 0; */
 }
  .right_header_info ul {
      list-style: none;

@@ -269,6 +269,14 @@
  header .container-fluid {
      max-width: 1850px;
 }
+.clickable-card{
+     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.21); 
+     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.21);
+}
+.clickable-card:hover{
+     -webkit-box-shadow: 1px 1px 15px -7px #000000; 
+     box-shadow: 1px 1px 15px -7px #000000;
+}
  .right_header_info {
      width: 100%;
      float: left;
